@@ -1,0 +1,28 @@
+{
+  "name": "@bencevans/color-array-average",
+  "version": "0.0.0",
+  "description": "Calculate the average color given an array of CSS Hex Colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/color-array-average.git"
+  },
+  "keywords": [
+    "color",
+    "css",
+    "hex",
+    "average"
+  ],
+  "author": "Ben Evans <ben@bluechimp.io> (https://bencevans.io)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bencevans/color-array-average/issues"
+  },
+  "homepage": "https://github.com/bencevans/color-array-average#readme",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
