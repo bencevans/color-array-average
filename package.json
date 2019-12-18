@@ -1,6 +1,6 @@
 {
   "name": "@bencevans/color-array-average",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate the average color given an array of CSS Hex Colors",
   "main": "index.js",
   "scripts": {
