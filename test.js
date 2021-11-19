@@ -8,6 +8,7 @@ test('color average', t => {
   t.equal(averageColor(['#fff', '#fff', '#fff', '#fff']), '#ffffff');
   t.equal(averageColor(['#00f', '#0f0', '#f00']), '#555555');
   t.equal(averageColor(['#121212', '#121212']), '#121212');
-  t.equal(averageColor(['#ff0000', '#ff0000']), '#ff0000')
+  t.equal(averageColor(['#ff0000', '#ff0000']), '#ff0000');
+  t.equal(averageColor(['#030303', '#050505']), '#040404');
   t.end();
 });
