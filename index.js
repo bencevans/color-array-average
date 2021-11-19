@@ -13,9 +13,9 @@ const averageColor = colors => {
   }, [0, 0, 0]);
 
   return '#' +
-    Math.round(totalR).toString(16).padEnd(2, '0') +
-    Math.round(totalG).toString(16).padEnd(2, '0') +
-    Math.round(totalB).toString(16).padEnd(2, '0');
+    Math.round(totalR).toString(16).padStart(2, '0') +
+    Math.round(totalG).toString(16).padStart(2, '0') +
+    Math.round(totalB).toString(16).padStart(2, '0');
 };
 
 module.exports = averageColor;
